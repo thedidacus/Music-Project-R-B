@@ -1,0 +1,247 @@
+/* fundamental things */
+* {
+    font-family: 'Times New Roman', serif;
+    background-color: black;
+    color: white;
+}
+
+html {
+    size: 16px;
+}
+/* navigation in top right */
+.navigation {
+    display: inline-block;
+    word-spacing: 0.1rem;
+    position: absolute;
+    right: 1rem;
+    background-color: coral;
+    margin-top: 0.8rem;
+}
+
+@media only screen and (max-width: 1400px) {
+    .navigation {
+        display: none;
+    }
+}
+/* heading for subjects*/
+h2 {
+    text-align: center;
+    background-color:coral;
+    color: black;
+    padding: .3em;
+    margin-bottom: 0.8rem;
+}
+/* history section */
+.history-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.history-pgr {
+    text-align: center;
+    margin-bottom: 6em;
+}
+/* affects of r&b section */
+.affects-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 450px;
+}
+
+.affects-pgr {
+    text-align: center;
+    margin-bottom: 6em;
+}
+
+/* best albums of 90s */
+/* jodeci's section */
+.jodeci {
+    background-color: cornflowerblue;
+}
+
+.crnflrblu {
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: .3em;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.jodeci-img {
+    height: 17em;
+    width: 19em;
+    margin-right: 8em;
+    margin-left: 8em;
+}
+
+.jodeci-table {
+    margin-left: 23em;
+    background-color: cornflowerblue;
+}
+
+@media only screen and (max-width: 760px) {
+    .jodeci-table {
+        position: relative;
+        right: 12rem;
+    }
+}
+
+.jodeci-p {
+    width: 30em;
+    float: inline-start;
+    margin-right: auto;
+    margin-left: 11em;
+    display: block;
+    padding: .3em;
+    font-size: 1.1em;
+    color: cornflowerblue;
+}
+
+@media only screen and (max-width: 760px) {
+    .jodeci-p {
+        position: relative;
+        right: 12rem;
+    }
+}
+
+.jodeci-table,
+.jodeci-p {
+    display: inline-block;
+}
+
+/* mary j. blige's section */
+.maryjblige {
+    background-color:rgb(154, 137, 112)
+}
+
+.drktan {
+    background-color: rgb(154, 137, 112);
+    text-align: center;
+    padding: .3em;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.mary-img {
+    height: 17em;
+    width: 19em;
+    margin-right: 8em;
+    margin-left: 8em;
+}
+
+.mary-table {
+    margin-left: 23em;
+    background-color: rgb(154, 137, 112);
+}
+
+@media only screen and (max-width: 760px) {
+    .mary-table {
+        position: relative;
+        right: 12rem;
+    }
+}
+
+.mary-p {
+    width: 30em;
+    float: inline-start;
+    margin-right: auto;
+    margin-left: 11em;
+    display: block;
+    padding: .3em;
+    font-size: 1.1em;
+    color: rgb(154, 137, 112);
+}
+
+@media only screen and (max-width: 760px) {
+    .mary-p {
+        position: relative;
+        right: 12rem;
+    }
+}
+
+.mary-table,
+.mary-p {
+    display: inline-block;
+}
+
+/* d'angelo's section */
+.dangelo {
+    background-color: white;
+    margin-bottom: 7em;
+}
+
+.orange {
+    background-color: white;
+    color: rgb(244, 117, 71);
+    text-align: center;
+    padding: .3em;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.dangelo-img {
+    height: 17em;
+    width: 19em;
+    margin-right: 8em;
+    margin-left: 8em;
+}
+
+.dangelo-table {
+    margin-left: 23em;
+    background-color: rgb(244, 117, 71);
+}
+
+@media only screen and (max-width: 760px) {
+    .dangelo-table {
+        position: relative;
+        right: 12rem;
+    }
+}
+
+.dangelo-p {
+    width: 30em;
+    float: inline-start;
+    margin-right: auto;
+    margin-left: 11em;
+    display: block;
+    padding: .3em;
+    font-size: 1.1em;
+    color: rgb(244, 117, 71);
+}
+
+@media only screen and (max-width: 760px) {
+    .dangelo-p {
+        position: relative;
+        right: 12rem;
+    }
+}
+
+.dangelo-table,
+.dangelo-p {
+    display: inline-block;
+}
+
+/* honorable mentions section */ 
+.hb-img {
+    height: 17em;
+    width: 19em;
+}
+
+audio {
+    height: 2em;
+    width: 10em;
+}
+
+.artists-in-hb {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+.artists-in-hb>* {
+        flex: 5 1 160px;
+        margin: 3rem;
+    }
